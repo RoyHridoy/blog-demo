@@ -23,7 +23,7 @@ defineProps({
                     <span class="updated">{{ (new Date(postList['updated_at']).toDateString()) }}</span>
                 </p>
                 <p class="description">{{ postList['short'] }}</p>
-                <RouterLink :to="{ name: 'postDetails', params: { id: postList['id'] } }" class="button">read more</RouterLink>
+                <RouterLink :to="{ name: 'postDetails', params: { id: postList['id'] } }" class="button">বিস্তারিত পড়ুন</RouterLink>
             </div>
         </div>
     </div>
