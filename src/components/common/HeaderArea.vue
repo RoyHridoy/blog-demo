@@ -58,7 +58,7 @@ ul li {
 
 ul li a {
   display: block;
-  padding: 10px 25px;
+  padding: 10px 15px;
   text-decoration: none;
   color: #222222;
   position: relative;

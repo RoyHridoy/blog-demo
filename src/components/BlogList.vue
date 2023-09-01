@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="col-md-4" v-for="(postList, index) in postLists" :key="index">
+    <div class="col-lg-4 col-md-6" v-for="(postList, index) in postLists" :key="index">
         <div class="single-blog">
             <div class="post-img">
                 <img :src="postList.img" :alt="postList['title']">
